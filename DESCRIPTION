@@ -1,0 +1,16 @@
+Package: DStools
+Title: My Collection of Data Science Functions
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chris",
+           family = "Castillo",
+           role = c("aut", "cre"),
+           email = "crcastillo84@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This contains a series of functions that I have utilized heavily while working on various data science projects. This includes dataframe alignment, group homogenization, regression variable contribution, and others.
+Depends: R (>= 3.1.0)
+Suggests: lubridate, bit64
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
