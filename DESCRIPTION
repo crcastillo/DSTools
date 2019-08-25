@@ -8,7 +8,7 @@ Authors@R:
            email = "crcastillo84@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This contains a series of functions that I have utilized heavily while working on various data science projects. This includes dataframe alignment, group homogenization, regression variable contribution, and others.
-Depends: R (>= 3.1.0)
+Depends: R (>= 3.1.0), pwr, ggplot2, dplyr
 Suggests: lubridate, bit64
 License: MIT
 Encoding: UTF-8
