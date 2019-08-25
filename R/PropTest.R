@@ -30,7 +30,7 @@ fx_Beta <- function(
   #* Store vector of Power results
   Power <- unlist(
     lapply(
-      1:length(Obs)
+      1:length(obs)
       , function(x){
         pwr::pwr.p.test(
           h = EffectSize
